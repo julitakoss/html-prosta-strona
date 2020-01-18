@@ -56,6 +56,12 @@
         border-style: solid;  
         border-color: forestgreen;
     }
+    .submit{
+        width: 100px;
+        height: 50px;
+        background-color: yellowgreen;
+        color: red;
+    }
     </style>
 </head>
 
@@ -89,5 +95,28 @@
         <br>
         <div class="square6"></div>
      </section>
+      <section id="Contact">
+        <h2>Jan Kowalski</h2>
+        <address>
+        ul. Błotna 12/42<br>
+        00-100 Warszawa<br>
+        lub<br>
+        Możesz skontakotwać się ze mną poprzez formularz poniżej:<br>
+        </address>
+        <br>
+        <form action="/action_page.php">
+            Imię:<br>
+            <input type="text" name="firstname" required>
+            <br>
+            Temat:<br>
+            <input type="text" name="topic" required>
+            <br>
+            Wiadomość<br>
+            <input type="text" name="messsage" required>
+            <br><br>
+            <input type="submit" class="submit" value="Wyślij">
+            </form> 
+      </section>
+     
 </body>
 </html>
